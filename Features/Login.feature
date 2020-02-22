@@ -9,7 +9,7 @@ Feature: Login
     Then Page title should be "Your store. Login"
     And close browser
 
-   Scenario Outline: Login Data Drien
+   Scenario Outline: Login Data Driven
      Given User Launch Chrome browser
      When User open URL "https://admin-demo.nopcommerce.com/login"
      And User enter Email as "<email>" and Password as "<password>"
