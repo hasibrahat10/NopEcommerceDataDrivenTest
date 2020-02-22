@@ -20,6 +20,7 @@ public class Steps {
     @When("User open URL {string}")
     public void user_open_URL(String url) {
         driver.get(url);
+        driver.manage().window().maximize();
     }
 
     @When("User enter Email as {string} and Password as {string}")
@@ -31,6 +32,11 @@ public class Steps {
     @When("Click on Login")
     public void click_on_Login() {
         lp.clickLogin();
+        try {
+            Thread.sleep(300);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     @Then("Page title should be {string}")
@@ -40,6 +46,11 @@ public class Steps {
             Assert.assertTrue(false);
         }else {
             Assert.assertEquals(title, driver.getTitle());
+        }
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 
