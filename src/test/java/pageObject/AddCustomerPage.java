@@ -20,8 +20,7 @@ public class AddCustomerPage {
     By lnkCustomers_menu = By.xpath("//a[@href='#']//span[contains(text(), 'Customers')]");
     By lnkCustomers_menuitem = By.xpath("//span[@class='menu-item-title'][contains(text(), 'Customers')]");
 
-    By btnAddnew = By.xpath("//a[@class='btn bg-blue']");
-
+    By btnAddnew = By.xpath("//a[@class='btn bg-blue']"); //Add New Button
 
     By txtEmail = By.xpath("//input[@id ='Email']");
     By txtPassword = By.xpath("//input[@id='Password']");
@@ -51,7 +50,11 @@ public class AddCustomerPage {
 
 
 
-    //Action Methods
+    //Action Methods ----------------------------
+
+    public String getPageTitle (){
+    return ldriver.getTitle();
+    }
 
     public  void  clickOnCustomersMenu (){
         ldriver.findElement(lnkCustomers_menu).click();
@@ -75,7 +78,7 @@ public class AddCustomerPage {
 
     public void setCustomerRoles (String role) throws InterruptedException{
         if(!role.equals("Vendors")){
-            ldriver.findElement(By.xpath("//*[@id=\"SelectedCustomerRoleIds_taglist\"]/li/span"));
+            ldriver.findElement(By.xpath("//*[@id=\"SelectedCustomerRoleIds_taglist\"]/li/span/Registered)"));
         }
         ldriver.findElement(txtcustomerRoles).click();
         WebElement listitem;
@@ -95,7 +98,7 @@ public class AddCustomerPage {
         else{
             listitem =ldriver.findElement(lstitemGuests);
         }
-        listitem.click();
+        //listitem.click();
         JavascriptExecutor js =(JavascriptExecutor)ldriver;
         js.executeScript("arguments[0].click();",listitem);
     }
