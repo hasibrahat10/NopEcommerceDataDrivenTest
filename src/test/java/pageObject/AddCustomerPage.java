@@ -77,9 +77,7 @@ public class AddCustomerPage {
     }
 
     public void setCustomerRoles (String role) throws InterruptedException{
-        if(!role.equals("Vendors")){
-            ldriver.findElement(By.xpath("//*[@id=\"SelectedCustomerRoleIds_taglist\"]/li/span/Registered)"));
-        }
+
         ldriver.findElement(txtcustomerRoles).click();
         WebElement listitem;
         Thread.sleep(300);
@@ -124,7 +122,7 @@ public class AddCustomerPage {
     }
 
     public void setLastName(String lName){
-        ldriver.findElement(txtFirstName).sendKeys(lName);
+        ldriver.findElement(txtLastName).sendKeys(lName);
     }
     public void setDob(String dob){
         ldriver.findElement(txtDob).sendKeys(dob);
@@ -140,8 +138,6 @@ public class AddCustomerPage {
     public void clickOnSave(){
         ldriver.findElement(btnSave).click();
     }
-
-
 
 
 }

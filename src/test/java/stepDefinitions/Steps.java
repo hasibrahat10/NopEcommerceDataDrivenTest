@@ -113,7 +113,7 @@ public class Steps extends BaseClass {
         //Registered Default
         // The customer can not be in both 'guest' and 'registered' roles
         // add the customer to 'guests' or 'registered role'
-        addCust.setCustomerRoles("Guests");
+        //addCust.setCustomerRoles("Guests");
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
@@ -123,7 +123,7 @@ public class Steps extends BaseClass {
         addCust.setGender("Male");
         addCust.setFirstName("Hasib");
         addCust.setLastName("Rahat");
-        addCust.setDob("31/12/1992"); //Format: D/MM/YYYY
+        addCust.setDob("1/22/2018"); //Format: D/MM/YYYY
         addCust.setCompanyName("testQA");
         addCust.setAdminContent("Testing purpose");
 
