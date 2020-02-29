@@ -145,6 +145,22 @@ public class Steps extends BaseClass {
                 .contains("The new customer has been added successfully"));
     }
 
+    // Steps for customer search by email id
+
+    @When("Enter customer Email")
+    public void enter_customer_Email() {
+
+    }
+
+
+    @When("Click on search button")
+    public void click_on_search_button() {
+
+    }
+    @Then("User should found email in the search table")
+    public void user_should_found_email_in_the_search_table() {
+
+    }
 
 
 }
