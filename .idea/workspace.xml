@@ -146,11 +146,11 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="599" y="146" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.40.1536.824@0.40.1536.824" timestamp="1582358465409" />
-    <state x="622" y="0" key="CommitChangelistDialog2" timestamp="1582531516093">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="752" y="47" key="CommitChangelistDialog2" timestamp="1583086082091">
+      <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="622" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582531516093" />
-    <state x="752" y="47" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1582390873456" />
+    <state x="752" y="47" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1583086082091" />
     <state x="549" y="207" key="FileChooserDialogImpl" timestamp="1582358463568">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
@@ -179,15 +179,11 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="249" y="40" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1582364564988" />
-    <state x="834" y="291" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582531529932">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="834" y="291" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1582531529932" />
-    <state x="938" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1536.824@0.40.1536.824" timestamp="1582454306018" />
-    <state x="938" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582953425741">
+    <state x="938" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583086093339">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="938" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1536.824@0.40.1536.824" timestamp="1582953425741" />
+    <state x="834" y="291" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1582531529932" />
+    <state x="938" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1536.824@0.40.1536.824" timestamp="1583086093339" />
     <state x="209" y="148" key="new project wizard" timestamp="1582370736129">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
