@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pageObject.AddCustomerPage;
 import pageObject.LoginPage;
+import pageObject.SearchCustomer;
 
 public class Steps extends BaseClass {
 
@@ -145,21 +146,24 @@ public class Steps extends BaseClass {
                 .contains("The new customer has been added successfully"));
     }
 
-    // Steps for customer search by email id
+    //================= Steps for customer search by email id ===============
 
     @When("Enter customer Email")
     public void enter_customer_Email() {
-
+        searchCust = new SearchCustomer(driver);
+        searchCust.setEmail("james_pan@nopCommerce.com");
     }
 
 
     @When("Click on search button")
-    public void click_on_search_button() {
-
+    public void click_on_search_button() throws InterruptedException {
+        searchCust.clickSearch();
+        Thread.sleep(3000);
     }
     @Then("User should found email in the search table")
     public void user_should_found_email_in_the_search_table() {
-
+        boolean status = searchCust.searchCustomerByEmail("james_pan@nopCommerce.com");
+        Assert.assertEquals(true, status);
     }
 
 
