@@ -24,6 +24,8 @@ public class Steps extends BaseClass {
         driver.manage().window().maximize();
     }
 
+    // =================== Login With Valid username and password =====================
+
     @When("User enter Email as {string} and Password as {string}")
     public void user_enter_Email_as_and_Password_as(String email, String password) {
         lp.setUserName(email);
@@ -66,12 +68,7 @@ public class Steps extends BaseClass {
     }
 
 
-    @Then("close browser")
-    public void close_browser() {
-        driver.quit();
-    }
-
-    //Customer Features step definitions--------------------------
+    //========================= Add new Customer step definitions =====================
 
     @Then("User can view Dashboard")
     public void user_can_view_Dashboard() {
@@ -160,11 +157,38 @@ public class Steps extends BaseClass {
         searchCust.clickSearch();
         Thread.sleep(3000);
     }
-    @Then("User should found email in the search table")
-    public void user_should_found_email_in_the_search_table() {
+
+    @Then("User should found Email in the search table")
+    public void user_should_found_Email_in_the_search_table() {
         boolean status = searchCust.searchCustomerByEmail("james_pan@nopCommerce.com");
         Assert.assertEquals(true, status);
     }
 
 
+    // ==================== Search customer By Name ===================
+
+    @When("Enter customer First Name")
+    public void enter_customer_First_Name() {
+        searchCust = new SearchCustomer(driver);
+        searchCust.setFirstName("Victoria");
+    }
+
+    @When("Enter customer Last Name")
+    public void enter_customer_Last_Name() {
+        searchCust = new SearchCustomer(driver);
+        searchCust.setLastName("Terces");
+    }
+
+    @Then("User should found Name in the Search table")
+    public void user_should_found_Name_in_the_Search_table() {
+        boolean status = searchCust.searchCustomerByName("Victoria Terces");
+        Assert.assertEquals(true, status);
+    }
+
+
+
+    @Then("close browser")
+    public void close_browser() {
+        driver.quit();
+    }
 }
