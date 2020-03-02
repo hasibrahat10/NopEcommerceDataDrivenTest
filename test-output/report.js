@@ -122,8 +122,7 @@ formatter.match({
   "location": "stepDefinitions.Steps.user_should_found_Name_in_the_Search_table()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.Steps.user_should_found_Name_in_the_Search_table(Steps.java:185)\r\n\tat ✽.User should found Name in the Search table(file:///C:/Users/Rahat/IdeaProjects/NoopEcommerce001/./Features/Customer.feature:40)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "close browser",
@@ -133,6 +132,6 @@ formatter.match({
   "location": "stepDefinitions.Steps.close_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 });

@@ -181,8 +181,7 @@ public class Steps extends BaseClass {
 
     @Then("User should found Name in the Search table")
     public void user_should_found_Name_in_the_Search_table() {
-        boolean status = searchCust.searchCustomerByName("Victoria Terces");
-        Assert.assertEquals(true, status);
+        Assert.assertEquals(true, searchCust.searchCustomerByName("Victoria Terces"));
     }
 
 
