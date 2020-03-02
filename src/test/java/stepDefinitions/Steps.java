@@ -158,8 +158,9 @@ public class Steps extends BaseClass {
         Thread.sleep(3000);
     }
 
-    @Then("User should found Email in the search table")
-    public void user_should_found_Email_in_the_search_table() {
+
+    @Then("User should found Email in the Search table")
+    public void user_should_found_Email_in_the_Search_table() {
         boolean status = searchCust.searchCustomerByEmail("james_pan@nopCommerce.com");
         Assert.assertEquals(true, status);
     }
@@ -183,7 +184,6 @@ public class Steps extends BaseClass {
     public void user_should_found_Name_in_the_Search_table() {
         Assert.assertEquals(true, searchCust.searchCustomerByName("Victoria Terces"));
     }
-
 
 
     @Then("close browser")

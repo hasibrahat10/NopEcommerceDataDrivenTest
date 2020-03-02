@@ -19,23 +19,22 @@ Feature: Customer
 #    And close browser
 
 
+    Scenario: Search Customer by Email ID
+
+      When User click on customers Menu
+      And click on customers Menu Item
+      And Enter customer Email
+      When Click on search button
+      Then User should found Email in the Search table
+      And close browser
+
+
+#  Scenario: Search Customer By Name
 #
-#    Scenario: Search Customer by Email ID
-
-#      When User click on customers Menu
-#      And click on customers Menu Item
-#      And Enter customer Email
-#      When Click on search button
-#      Then User should found Email in the Search table
-#      And close browser
-
-
-  Scenario: Search Customer By Name
-
-        When User click on customers Menu
-        And click on customers Menu Item
-        And Enter customer First Name
-        And Enter customer Last Name
-        Then Click on search button
-        Then User should found Name in the Search table
-        And close browser
+#        When User click on customers Menu
+#        And click on customers Menu Item
+#        And Enter customer First Name
+#        And Enter customer Last Name
+#        Then Click on search button
+#        Then User should found Name in the Search table
+#        And close browser

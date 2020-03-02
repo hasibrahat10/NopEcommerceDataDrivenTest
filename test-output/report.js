@@ -60,7 +60,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Search Customer By Name",
+  "name": "Search Customer by Email ID",
   "description": "",
   "keyword": "Scenario"
 });
@@ -85,28 +85,18 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Enter customer First Name",
+  "name": "Enter customer Email",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.enter_customer_First_Name()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Enter customer Last Name",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepDefinitions.Steps.enter_customer_Last_Name()"
+  "location": "stepDefinitions.Steps.enter_customer_Email()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
   "name": "Click on search button",
-  "keyword": "Then "
+  "keyword": "When "
 });
 formatter.match({
   "location": "stepDefinitions.Steps.click_on_search_button()"
@@ -115,11 +105,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User should found Name in the Search table",
+  "name": "User should found Email in the Search table",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.user_should_found_Name_in_the_Search_table()"
+  "location": "stepDefinitions.Steps.user_should_found_Email_in_the_Search_table()"
 });
 formatter.result({
   "status": "passed"

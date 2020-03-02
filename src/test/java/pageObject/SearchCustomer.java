@@ -111,14 +111,16 @@ public class SearchCustomer {
     }
 
     public int getNoOfColumns(){
+
             return (tableColumns.size());
     }
+
     public boolean searchCustomerByEmail(String email){
             boolean flag = false;
             for (int i=1; i<=getNoOfRows(); i++){
                 String emailid = table.findElement(By.xpath("//table[@id='customers-grid']/tbody/tr["+i+"]/td[2]")).getText();
-                        System.out.println(emailid);
-                if(emailid.equals("email")){
+                        //System.out.println(emailid);
+                if(emailid.equals(email)){
                     flag = true;
                 }
             }
@@ -131,7 +133,7 @@ public class SearchCustomer {
         boolean flag = false;
         for (int i=1; i<=getNoOfRows(); i++){
             String name = table.findElement(By.xpath("//table[@id='customers-grid']/tbody/tr["+i+"]/td[3]")).getText();
-            System.out.println("Test: " + name);
+            //System.out.println("Test: " + name);
             String names[] = name.split(" ");// separate name first and last
             if(names[0].equals("Victoria") && names[1].equals(("Terces"))){
                 flag = true;
