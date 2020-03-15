@@ -7,6 +7,7 @@ Feature: Customer
       And Click on Login
       Then User can view Dashboard
 
+<<<<<<< HEAD
 #  Scenario: Add a new Customer
 
 #    When User click on customers Menu
@@ -18,16 +19,28 @@ Feature: Customer
 #    Then User can view confirmation message "The new customer has been added successfully."
 #    And close browser
 
+=======
+  Scenario: Add a new Customer
 
-#
-#    Scenario: Search Customer by Email ID
+    When User click on customers Menu
+    And click on customers Menu Item
+    And click on Add new button
+    Then User can view Add new customer page
+    When User enter customer info
+    And click on Save button
+    Then User can view confirmation message "The new customer has been added successfully."
+    And close browser
+>>>>>>> f8aec9595d4c623bbf4dde9b793dca52eee7732a
 
-#      When User click on customers Menu
-#      And click on customers Menu Item
-#      And Enter customer Email
-#      When Click on search button
-#      Then User should found Email in the Search table
-#      And close browser
+
+    Scenario: Search Customer by Email ID
+
+      When User click on customers Menu
+      And click on customers Menu Item
+      And Enter customer Email
+      When Click on search button
+      Then User should found Email in the Search table
+      And close browser
 
 
   Scenario: Search Customer By Name
