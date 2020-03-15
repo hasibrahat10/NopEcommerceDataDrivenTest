@@ -1,0 +1,18 @@
+2020-03-15 15:58:27,594 - nopCommerce -INFO - ********Launching Browser ************
+2020-03-15 15:58:28,162 - nopCommerce -INFO - ******** Opening Url ************
+2020-03-15 15:58:35,515 - nopCommerce -INFO - ******** Log in Details ************
+2020-03-15 15:58:40,035 - nopCommerce -INFO - ******** Started Login Process ************
+2020-03-15 15:59:46,884 - nopCommerce -INFO - ********Search by email ************
+2020-03-15 16:00:17,355 - nopCommerce -INFO - ********Launching Browser ************
+2020-03-15 16:00:17,769 - nopCommerce -INFO - ******** Opening Url ************
+2020-03-15 16:00:40,239 - nopCommerce -INFO - ******** Log in Details ************
+2020-03-15 16:00:41,288 - nopCommerce -INFO - ******** Started Login Process ************
+2020-03-15 16:02:52,721 - nopCommerce -INFO - ******* Searching by name ************
+2020-03-15 16:03:33,023 - nopCommerce -INFO - ********Launching Browser ************
+2020-03-15 16:03:33,099 - nopCommerce -INFO - ******** Opening Url ************
+2020-03-15 16:03:41,173 - nopCommerce -INFO - ******** Log in Details ************
+2020-03-15 16:03:41,633 - nopCommerce -INFO - ******** Started Login Process ************
+2020-03-15 16:04:19,860 - nopCommerce -INFO - ******** Login Failed ************
+2020-03-15 16:04:22,871 - nopCommerce -INFO - ******** Logout  click************
+2020-03-15 16:04:30,140 - nopCommerce -INFO - ******** Login Failed ************
+2020-03-15 16:04:33,150 - nopCommerce -INFO - ******** Closing browser  ************
