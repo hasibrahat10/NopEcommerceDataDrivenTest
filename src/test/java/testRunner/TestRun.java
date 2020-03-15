@@ -8,9 +8,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-//        features = ".//Features/Customer.feature",
-        features = {".//Features/Login.feature",".//Features/Customer.feature"},
-//        features = ".//Features/Customer.feature",
+       features = ".//Features/Customer.feature",
+        //features = {".//Features/Login.feature",".//Features/Customer.feature"},
 
         glue = "stepDefinitions",
         monochrome = true,
