@@ -66,7 +66,6 @@ public void setup() throws IOException {
     @When("User open URL {string}")
     public void user_open_URL(String url) {
         logger.info("******** Opening Url ************");
-
         driver.get(url);
         driver.manage().window().maximize();
     }

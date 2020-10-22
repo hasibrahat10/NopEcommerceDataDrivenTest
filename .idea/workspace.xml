@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac55886e-15e1-4319-9dfc-e62ab5b99609" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/application.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/application.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/testlog.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Features/Customer.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Customer.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/TestRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/BaseClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Steps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testRunner/TestRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testRunner/TestRun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583140124634</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="recheck test cases">
+      <created>1603352786991</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603352786991</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -183,40 +183,45 @@
     <MESSAGE value="search by name solved!" />
     <MESSAGE value="search by Email solved!" />
     <MESSAGE value="Add Maven plugin and run whole test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Maven plugin and run whole test cases" />
+    <MESSAGE value="recheck test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="recheck test cases" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1603351444530">
+    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1603352785262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603351444530" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1603351444528">
+    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603352785262" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1603353106841">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603351444528" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1603351444528">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603353106841" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1603353106841">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603351444528" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1603351444530">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603353106841" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1603353106841">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603351444530" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1603351275439">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603353106841" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1603353106841">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603351275439" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1603351275439">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603353106841" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1603353106620">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603351275439" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1603351275439">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603353106620" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1603353106620">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603351275439" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1603351275439">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603353106620" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1603353106620">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603351275439" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603353106620" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1603353106620">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603353106620" />
   </component>
 </project>
