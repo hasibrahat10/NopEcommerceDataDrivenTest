@@ -11,8 +11,7 @@ import org.junit.runner.RunWith;
       features = ".//Features/Login.feature",
         //features = {".//Features/Login.feature",".//Features/Customer.feature"},
 
-//       features = ".//Features/Customer.feature",
-//        //features = {".//Features/Login.feature",".//Features/Customer.feature"},
+        //features = {".//Features/Login.feature",".//Features/Customer.feature"},
 
         glue = "stepDefinitions",
         monochrome = true,
