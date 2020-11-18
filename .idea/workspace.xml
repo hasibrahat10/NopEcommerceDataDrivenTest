@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac55886e-15e1-4319-9dfc-e62ab5b99609" name="Default Changelist" comment="">
+    <list default="true" id="ac55886e-15e1-4319-9dfc-e62ab5b99609" name="Default Changelist" comment="recheck test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Features/Customer.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Customer.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/TestRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testRunner/TestRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testRunner/TestRun.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,8 +167,25 @@
       <option name="project" value="LOCAL" />
       <updated>1603352786991</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="recheck test">
+      <created>1603353186982</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603353186982</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -184,44 +195,53 @@
     <MESSAGE value="search by Email solved!" />
     <MESSAGE value="Add Maven plugin and run whole test cases" />
     <MESSAGE value="recheck test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="recheck test cases" />
+    <MESSAGE value="recheck test" />
+    <option name="LAST_COMMIT_MESSAGE" value="recheck test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1603352785262">
+    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1603353420272">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603352785262" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1603353106841">
+    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603353420272" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1603353351065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603353106841" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1603353106841">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1603353351065" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1603356231362">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603353106841" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1603353106841">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603356231362" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1603356231361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603353106841" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1603353106841">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603356231361" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1603356231361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603353106841" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1603353106620">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603356231361" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1603356231361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603353106620" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1603353106620">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603356231361" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1603356231347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603353106620" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1603353106620">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603356231347" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1603356231346">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603353106620" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1603353106620">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603356231346" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1603356231346">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603353106620" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603356231346" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1603356231346">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603356231346" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603353287990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1603353287990" />
   </component>
 </project>
